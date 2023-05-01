@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#"  class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It is Me</h3>
+            <h1>Haile Wells</h1>
+            <h3>And I'am A <span class="multiple-text"></span></h3>
+            <p> A Computer Engineer and Web-Developer, Frontend-Developer, experiencing A FullStack Developer Using MERN Stack !</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#"><i class='bx bxl-tiktok' ></i></a>       
+            </div>
+            <a href="images/resume.jpg" download class="btn">Download Cv</a>
+        </div>
+
+
+        <div class="home-img">
+            <img src="images/newhome.png" alt="home"/>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="about"/>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>And Currently I am learning Computer Engineering @ Wolkite University and also Web-Developement and FullStack !  </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I Develope Personal Websites and I use HTML5, CSS, JS, REACTJS, Languages to Develope Frontend!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-figma'></i>
+                <h3>Web Design</h3>
+                <p>For WebDesign I Use Figma UI/UX and Canva for Logo, Brosher </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-codepen'></i>
+                <h3>Programming</h3>
+                <p>Try to solve Comprehensive challenges of real world problems using Comp.Engineering and  programming.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.PNG" alt=""/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Logo Design Using Canva!</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/tmdb.png" alt=""/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>JS Movies watchlist</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.PNG" alt=""/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Brosher Designed For Meba Tech </p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Capture.PNG" alt=""/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Registration Form Using Python!</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/1.png" alt=""/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Business Card Designing Using Canva!</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/django.PNG" alt=""/>
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Django web site for our Electrical Association!</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name=" " id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <!-- <input type="submit" value="send Message" class="btn"> -->
+            <a href="mailto:hailewells222@gmail.com" class="btn">Send Message</a>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Hailewells | All Rights Reserved!</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
